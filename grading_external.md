@@ -9,8 +9,7 @@ Alle Kriterien betreffen nur die Projektarbeit. Beweismaterial kommt aus dem Gru
 
 # Die Studierenden kennen die Grundelemente der prozeduralen Programmierung. (10)
 - Der Gauß Algorithmus funktioniert im Test. <br>
-
-  ```
+```  
 def gauss_elimination(matrix):
     rows, cols = matrix.shape  # matrix.shape returns a tuple with the number of rows and columns
     steps = []  # Store the steps of Gaussian elimination
