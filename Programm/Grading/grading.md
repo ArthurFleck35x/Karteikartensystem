@@ -252,36 +252,129 @@ Durch ausprobieren und nachlesen konnte mit den Problemen umgegangen werden. <br
 
 
 ## Kenntnisse in prozeduraler Programmierung:
-(für den Code siehe Die Studierenden kennen die Grundelemente der prozeduralen Programmierung )
+(für den Code siehe Die Studierenden kennen die Grundelemente der prozeduralen Programmierung ) <br>
+
 # - Algorithmenbeschreibung
 - Unser Algorithmus ist eine GUI-Anwendung, mit der wir ähnlich wie dem Prinzip von Karteikarten Abfragen erstellt haben. Die Frage wird angezeigt, man beantwortet die Frage und nach einem Klick wird die Anwort angezeigt. Hätte man eine Karteikarte in der Hand so würde man diese umdrehen um die Anwort sehen zu können. <br>
 
-# - Datentypen
-- string  <br>
-- integer  <br>
-- list  <br>
+# - Datentypen <br>
+- integer, string und list  <br>
+
+```
+ def zeige_antwort(self):
+        antwort_index = self.aktuelle_frage_index + 1
+        if antwort_index < len(self.frage_antwort_liste):
+            antwort = self.frage_antwort_liste[antwort_index]
+            self.frage_text.config(text=f"Antwort: {antwort}")
+            self.antwort_button.config(state=tk.DISABLED)
+            self.naechste_button.config(state=tk.NORMAL)
+
+```
+
 
 # - E/A-Operationen und Dateiverarbeitung
 - open  <br>
 
+```
+#öffnet und liest "datenbank.txt" aus
+ def lade_fragen_antworten(self):
+        try:
+            with open("datenbank.txt", "r", encoding="utf-8") as file:
+                fragen_antworten = [line.strip() for line in file.readlines()]
+            return fragen_antworten
+        except FileNotFoundError:
+            print("Datei 'datenbank.txt' nicht gefunden.")
+            return []
+```
+
 # - Operatoren
-- =
-- +
-- <
+- +, = und <
+
+```
+# Funktion zum Anzeigen der nächsten Frage, erhöht den Index und beeinflusst Buttons
+    def naechste_frage(self):
+        self.aktuelle_frage_index += 2
+        if self.aktuelle_frage_index < len(self.frage_antwort_liste):
+            self.frage_text.config(text=self.frage_antwort_liste[self.aktuelle_frage_index])
+            self.antwort_button.config(state=tk.NORMAL)
+            self.naechste_button.config(state=tk.DISABLED)
+        else:
+            self.frage_text.config(text="Herzlichen Glückwunsch,\n alle Fragen beantwortet.")
+            self.antwort_button.config(state=tk.DISABLED)
+            self.naechste_button.config(state=tk.DISABLED)
+
+```
 
 # - Kontrollstrukturen
-- if
-- try/except
+- if <br>
+
+```
+ def zeige_antwort(self):
+        antwort_index = self.aktuelle_frage_index + 1
+        if antwort_index < len(self.frage_antwort_liste):
+            antwort = self.frage_antwort_liste[antwort_index]
+            self.frage_text.config(text=f"Antwort: {antwort}")
+            self.antwort_button.config(state=tk.DISABLED)
+            self.naechste_button.config(state=tk.NORMAL)
+
+```
+
+- try/except <br>
+
+```
+ def lade_fragen_antworten(self):
+        try:
+            with open("datenbank.txt", "r", encoding="utf-8") as file:
+                fragen_antworten = [line.strip() for line in file.readlines()]
+            return fragen_antworten
+        except FileNotFoundError:
+            print("Datei 'datenbank.txt' nicht gefunden.")
+            return []
+```
   
-# - Funktionen
-- __init__
-- ClickForum
-- lade_fragen_antworten
-- zeige_antwort
-- naechste_frage
+# - Funktionen <br>
+- __init__ <br>
+  
+```
+  class FragenAntwortenApp:
+    # Initialisierung der Klasse
+    def __init__(self, master):
+```
+
+- ClickForum <br>
+  
+```
+  # Funktion beim Klick
+  def ClickForum(self):
+        subprocess.Popen(["python", "Forumseite.py"])
+        self.master.destroy()
+```
+
+- lade_fragen_antworten <br>
+
+```
+   # Funktion zum Ausgeben von Fragen und Antworten
+   def lade_fragen_antworten(self):
+        try:
+            with open("datenbank.txt", "r", encoding="utf-8") as file:
+                fragen_antworten = [line.strip() for line in file.readlines()]
+            return fragen_antworten
+        except FileNotFoundError:
+            print("Datei 'datenbank.txt' nicht gefunden.")
+            return []
+```
+
+- zeige_antwort <br>
+
+- naechste_frage <br>
   
 # - Stringverarbeitung
-- In Label oder Button
+- Als Titel für eine Seite, Label oder Button
+
+```
+# Titel der Seite, welche im Code als "master betitelt wird"
+self.master.title("Fragen und Antworten")
+```
   
 # - Strukturierte Datentypen
 - FragenAntwortenApp 
