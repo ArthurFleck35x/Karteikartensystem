@@ -162,17 +162,17 @@ Louis hat mir erklärt wie ich das Objekt in der Klasse selbst anwenden sollte. 
 Elina habe ich geholfen in das Projekt einzusteigen, in dem ich ihr Updates gegeben, die Planung und den Code für die Benutzeroberfläche übernommen habe, während sie sich um die Datenbank gekümmert hat. <br>
 <br>
 Elina: <br> 
-Ich habe mich um die Sammlung der Daten gekümmert. Dafür habe ich die Vorlesungen von Mathe benutzt und in ein Word Dokument gepackt. Lea hat mir dabei geholfen mich mal mit Sqlite auseinanderzusetzen. Sie hat sich anschließend um die Datenbank gekümmert, dass die Daten auch eingelesen werden können. In der zwischenzeit habe ich mich etwas mit der Oberfläche auseinandergesetzt. Dort habe ich die Farben mal geändert und versucht so anzupassen, dass es schön aussieht. Das arbeiten sowohl mit der Oberfläche als auch mit den Datenbank war völlig neu für mich und eine Herausforderung. Lea hat mich bei allem gut unterstützt und mir immer wieder updates gegeben wie der Stand ist.<br>
+Ich habe mich um die Sammlung der Daten gekümmert. Dafür habe ich die Vorlesungen von Mathe benutzt und in ein Word Dokument gepackt. Lea hat mir dabei geholfen mich mal mit Sqlite auseinanderzusetzen. Sie hat sich anschließend um die Datenbank gekümmert, dass die Daten auch eingelesen werden können. In der zwischenzeit habe ich mich etwas mit der Oberfläche auseinandergesetzt. Dort habe ich die Farben mal geändert und versucht so anzupassen, dass es schön aussieht. Das arbeiten sowohl mit der Oberfläche als auch mit den Datenbank war völlig neu für mich und eine Herausforderung. Lea hat mich bei allem gut unterstützt und mir immer wieder updates gegeben wie der Stand ist. <br>
 
 # Sie können existierenden Code analysieren und beurteilen. (5)
 <!-- Pro Gruppe:You have critiqued another group project. Link to your critique here (another wiki page on your git) and link the project in the critique, use these evaluation criteria to critique the other project. Make sure they get a top grade after making the suggested changes -->
-
+https://github.com/ArthurFleck35x/Karteikartensystem/blob/main/Programm/Grading/Gradinggrading_external.md <br>
 # Sie können sich selbstständig in Entwicklungsumgebungen und Technologien einarbeiten und diese zur Programmierung und Fehlerbehebung einsetzen. (10)
 <!-- Which technology did you learn outside of the teacher given input -->
-# Programmierung:
- - Das Modul tkinter, für die GUI wurde verwendet.
-# Fehlerbehbung:
-- Debuggen
+# Programmierung: <br>
+ - Das Modul tkinter, für die GUI wurde verwendet. <br>
+# Fehlerbehbung: <br>
+- Debuggen <br>
 - Das Verwenden von "print" Befehlen, für den Gebrauch der "datenbank.txt"
 ```
  except FileNotFoundError:
@@ -188,7 +188,7 @@ Ich habe mich um die Sammlung der Daten gekümmert. Dafür habe ich die Vorlesun
         print("Error: Make sure Titelseite.py and Forumseite.py exist in the same directory.")
 
 ```
-  zur Fehlerbehebung.
+  zur Fehlerbehebung. <br>
   
 
 
@@ -203,6 +203,7 @@ Ich habe mich um die Sammlung der Daten gekümmert. Dafür habe ich die Vorlesun
 Wir sind stolz das der Ablauf des Quellcodes beziehungsweise der Wechsel zwischen den Files läuft. <br>
 Die Titelseite schließt sich nach 3 Sekunden für den Benutzer automatisch und öffnet das "Forum". Ab dem "Forum" geschieht jeder Seitenwechsel per Mausklick. 
 Wie sich die Titelseite öffnet und schließt sieht man im Code. <br>  
+
 
 ```
 def execute_titelseite():
