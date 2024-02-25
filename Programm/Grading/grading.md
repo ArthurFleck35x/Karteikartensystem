@@ -38,7 +38,7 @@ def ClickForum():
  <br>
 
 ![image](https://github.com/ArthurFleck35x/Karteikartensystem/assets/152798623/d8e92b9c-5295-4d16-a88d-3b53d44bf5c4) <br>
-*zusehen ist oben der Programmcode einer besispielhaft gewählten Datei unseres ProgrammCodes, darunter befindet sich ein Screenshot von Copilot. In dem Screenshot erklärt Copilot anhand des Programmcodes (von oben) inwiefern die Grundelemente der prozeduralen Programmierung im Programmcode enthalten sind. Weitere Erläuterung erfolgt unten (siehe Grundelemente der prozeduralen Programmierung). Die beiden Abbildungen dienen lediglich einem ersten Vergleich. 
+*zusehen ist oben der Programmcode einer besispielhaft gewählten Datei unseres ProgrammCodes, darunter befindet sich ein Screenshot von Copilot. In dem Screenshot erklärt Copilot anhand des Programmcodes (von oben) inwiefern die Grundelemente der prozeduralen Programmierung im Programmcode enthalten sind. Weitere Erläuterung erfolgt unten (siehe Grundelemente der prozeduralen Programmierung). Die beiden Abbildungen dienen lediglich einem ersten Vergleich. <br>
 
 # Sie können die Syntax und Semantik von Python (10)
 <!-- Eine Stelle aus ihrem Programmieren wählen auf die sie besonders stolz sind und begründen -->
@@ -71,7 +71,7 @@ def ClickForum():
                                          font=self.myFont, command=self.naechste_frage)
         self.naechste_button.grid(row=1, column=3, padx=10, pady=10)
         ```
- Der Code oben beinhaltet eine mit der Methode "__init__" kreierte Klasse (class FragenAntwortenApp), womit ich mich erst im Zuge dieses Projektes beschäftigt habe.
+ Der Code oben beinhaltet eine mit der Methode "__init__" kreierte, objektorientierete Klasse (class FragenAntwortenApp), womit ich mich erst im Zuge dieses Projektes beschäftigt habe. <br>
  
  In "class FragenAntwortenApp"  sind Eigenschaften festgelegt zum Aussehen, wie Besipielsweise
  ```
@@ -83,8 +83,9 @@ self.myFont = font.Font(size=10, weight="bold", family="Helvetica")
 # Hintergrundfarbe
 self.master.configure(bg='olive')
 ```
- . 
+. <br>
 
+*da vieles aus dem Code Beispiel bereits an anderen Stellen kommentiert ist, wurde hier auf die Beschriftung im Code mit Kommentaren verzichtet.
 
 # Sie können ein größeres Programm selbständig entwerfen, programmieren und auf Funktionsfähigkeit testen (Das Projekt im Team) (10)
 <!-- Anhand von commits zeigen, wie jeder im Projekt einen Beitrag geleistet hat -->
@@ -96,9 +97,9 @@ Hier ist ein Versuch mit Json zu arbeiten. Die Abfragen sollen in Form eines Dic
 ![image](https://github.com/ArthurFleck35x/Karteikartensystem/assets/152798623/705f3258-9148-4ed6-8224-ccaf7b3575bb) <br>
 <br>
 Commits:<br>
-Daten für die Karteikarten, Datenbank, hilfestellung Grading (Elina)
-Planung (Struktur, Ablauf), Programmcode (auch Benutzeroberfläche), Grading, Skizzierung (Lea)
-https://github.com/ArthurFleck35x/Karteikartensystem
+Daten für die Karteikarten, Datenbank, hilfestellung Grading (Elina) <br>
+Planung (Struktur, Ablauf), Programmcode (auch Benutzeroberfläche), Grading, Skizzierung (Lea) <br>
+https://github.com/ArthurFleck35x/Karteikartensystem <br>
 
 # Sie kennen verschiedene Datenstrukturen und können diese exemplarisch anwenden. (10)
 <!-- Eine Stelle aus dem Projekt wählen auf die sie besonders stolz sind und begründen -->
@@ -168,7 +169,27 @@ Ich habe mich um die Sammlung der Daten gekümmert. Dafür habe ich die Vorlesun
 
 # Sie können sich selbstständig in Entwicklungsumgebungen und Technologien einarbeiten und diese zur Programmierung und Fehlerbehebung einsetzen. (10)
 <!-- Which technology did you learn outside of the teacher given input -->
- 
+# Programmierung:
+ - Das Modul tkinter, für die GUI wurde verwendet.
+# Fehlerbehbung:
+- Debuggen
+- Das Verwenden von "print" Befehlen, hier
+```
+ except FileNotFoundError:
+            print("Datei 'datenbank.txt' nicht gefunden.")
+            return []
+```
+
+  oder hier
+  
+```
+ # Ausgabe zur Fehlerbehebung
+    except FileNotFoundError:
+        print("Error: Make sure Titelseite.py and Forumseite.py exist in the same directory.")
+
+```
+  zur Fehlerbehebung.
+  
 
 
 <!-- Did you or your group get help from someone in the classroom (get a support message here from the person who helped you) -->
@@ -181,7 +202,8 @@ Ich habe mich um die Sammlung der Daten gekümmert. Dafür habe ich die Vorlesun
 <!-- Which parts of your project are you proud of and why (describe, analyse, link) -->
 Wir sind stolz das der Ablauf des Quellcodes beziehungsweise der Wechsel zwischen den Files läuft. <br>
 Die Titelseite schließt sich nach 3 Sekunden für den Benutzer automatisch und öffnet das "Forum". Ab dem "Forum" geschieht jeder Seitenwechsel per Mausklick. 
-Wie sich die Titelseite öffnet und schließt sieht man im Code. 
+Wie sich die Titelseite öffnet und schließt sieht man im Code. <br>  
+
 ```
 def execute_titelseite():
     """
@@ -224,7 +246,6 @@ einfuehrungsseite.iconbitmap("hand-page01.ico")
 - fehlende Markdown Kenntnisse in Bezug auf die Formatierung, Bilder auf Github einfügen  <br>
 Durch ausprobieren und nachlesen konnte mit den Problemen umgegangen werden. <br>
  <br>
-- Datenbank: 
 
 #Geschrieben von Lea
 
