@@ -76,5 +76,6 @@ Aussehen: <br>
 
 **-sind alle Fragen durchgegangen, soll man ins Forum können um das Programm zu beenden** <br>
 ![image](https://github.com/ArthurFleck35x/Karteikartensystem/assets/152798623/8f3ba53c-5a30-4c72-a62b-21bfb27c8d9c) <br>
-
+<br>
+- geschrieben von Lea
 
