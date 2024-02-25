@@ -173,14 +173,14 @@ Ich habe mich um die Sammlung der Daten gekümmert. Dafür habe ich die Vorlesun
  - Das Modul tkinter, für die GUI wurde verwendet.
 # Fehlerbehbung:
 - Debuggen
-- Das Verwenden von "print" Befehlen, hier
+- Das Verwenden von "print" Befehlen, für den Gebrauch der "datenbank.txt"
 ```
  except FileNotFoundError:
             print("Datei 'datenbank.txt' nicht gefunden.")
             return []
 ```
 
-  oder hier
+  oder bei Ausführung des Ablaufs (zum öffen der Forumsseite beziehungsweise schließen der Titelseite)
   
 ```
  # Ausgabe zur Fehlerbehebung
