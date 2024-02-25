@@ -1,5 +1,5 @@
 #erstellt von Elina 
-#angefangen zu bearbeiten und rechtschreibprüfung, Lea
+#angefangen zu bearbeiten (in den ersten Zeilen, als Darstellung wie vorgegangen werden soll in Bezug auf die csv. Es sollen die Strings ausgelesen werden, welche durch | getrennt werden ) und rechtschreibprüfung, Lea
 
  "Frage" |  "Antwort"
 "Was ist eine Quadratische Matrix mit einem Kern?"|
