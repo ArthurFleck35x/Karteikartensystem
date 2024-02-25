@@ -94,3 +94,5 @@ def gauss_elimination(matrix):
 Ja z.B. die Speicherung der Strings des Lösungsweges des Gaussverfahrens <br>
 # - Strukturierte Datentypen
 Ja z.B. Dictionarys und Listen (z.B. steps in Gauss_elimination) <br>
+<br>
+- geschrieben von Lea 
