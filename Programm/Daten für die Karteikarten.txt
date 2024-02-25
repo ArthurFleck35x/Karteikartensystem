@@ -1,0 +1,212 @@
+#erstellt von Elina 
+#angefangen zu bearbeiten und rechtschreibprüfung, Lea
+
+ "Frage" |  "Antwort"
+"Was ist eine Quadratische Matrix mit einem Kern?"|
+Eine Quadratische Matrix A besitzt einen Kern, wenn ihre Determinante gleich Null ist.Wäre die Determinante der Quadratischen Matrix A ungleich Null, so enthielte der Kern der Matrix nur den Nullvektor.
+
+Wie ist die Definition der Determinante eines 2 x 2 Gleichungssystem?|
+Die Determinante eines 2 x 2 Gleichungssystems und damit einer (2 x 2) – Matrix wird daher folgendermaßen definiert:
+a11	a12
+		= a11 * a22 – a12 * a21
+a21 	a22
+Das Ergebnis dieser Determinante lässt sich nach der Regel von Saurrus berechnen.
+
+Was sind die Determinanten?
+Determinanten stellen neben dem Gaußschen Lösungsverfahren ein weiteres nützliches Werkzeug im Umgang mit linearen Gleichungssystemen dar. Sie ermöglichen unter anderem eine verhältnismäßig einfache und schnelle Untersuchung, ob ein lineares Gleichungssystem eine eindeutige Lösung besitzt oder nicht.
+
+Was sind Scherungsmatritzen?
+Eine Scherungsmatrix bewirkt eine Verformung eines geometrischen Objekts.
+
+Was ist das Vektorprodukt?
+Das Vektorprodukt zweier Vektoren a und b ergibt einen Vektor, der auf jedem der beiden Vektoren und senkrecht steht. Diese Definition ist erst ab einem dreidimensionalen Raum sinnvoll.
+Der Betrag des Vektorprodukts zweier Vektoren a und b ist gleich dem Produkt ihrer Beträge von a und b, multipliziert mit dem Sinus des zwischen ihnen eingeschlossenen Winkels alpha.
+
+
+
+
+Was sind Lineare Gleichungssysteme?
+Im einfachsten Fall besteht ein Lineares Gleichungssystem aus zwei Gleichungen mit zwei Unbekannten. Bezeichnet man diese variablen mit x1 und x2, so kann man das Gleichungssystem allgemein in folgender Form darstellen:
+a11 * x1 + a12 * x2 = b1
+a21 * x1 + a22 * x2 = b2
+Die Werte der einen Variablen lassen sich lediglich in Abhängigkeit von der anderen Variablen angeben, wobei im Allgemeinen unendlich viele Zahlenpaare als Lösung existieren.
+
+Was ist der Gegenvektor?
+Das Negative -a eines Vektors a, auch Gegenvektor genannt, ist ein Vektor mit gleichem Betrag und gleicher Richtung wie a, jedoch mit umgekehrten Richtungssinn.
+
+Wie ist der Betrag eines Vektors definiert?
+Die Länge der Verbindungsstrecke vom Anfangspunkt eines Vektors a zu seinem Endpunkt wird Betrag des Vektors genannt.
+Der Betrag eines Vektors kann mithilfe des Satzes von Pythagoras anhand seiner Komponenten ax und ay (az bei dreidimensionalen Vektoren) berechnet werden.
+
+Wie ist ein Ortsvektor definiert?
+Ein Vektor, dessen Anfangspunkt des Koordinatensystem 0 = (0, 0, 0) entspricht, wird Ortsvektor bezeichnet. Jeder Punkt eines Raumes kann durch einen zugehörigen Ortsvektor eindeutig charakterisiert werden.
+
+Wie wird der n-dimensionale Raum / Dimension 3 definiert?
+Der 3-dimensionale Raum R^3 besteht genau aus allen geordneten Trippeln (a, b, c).
+
+Was sind Komplexe Zahlen?
+Die imaginäre Einheit i ist jene Zahl, deren Quadrat gleich -1 ist:
+i^2 = -1
+Zunächst erhält man als Lösung x1,2 = +- i
+
+
+Wie wird eine Menge definiert?
+Der Begriff der Menge bildet das Fundament der heutigen, modernen Mathematik.
+Die Untersuchung von Mengen, also Zusammenfassungen von Objekten, genannt Element der Menge, wird Mengenlehre genannt.
+
+Wie wird die Division durch Null definiert?
+Die Division durch Null ist nicht definiert. Würde man die Division durch Null zulassen, so hätte dies ein mathematisches Paradox zur Folge:
+Gäbe es zu einer Zahl a ungleich 0 eine Zahl x = a/0 so würde man durch beidseitige Multiplikation mit 0 die Aussage 0 = a erhalten, was ein Widerspruch zur Voraussetzung a ungleich 0 darstellt.
+Wäre die Division von Null durch Null definiert, gäbe es also eine solche Zahl x = 0/0, so würde die Multiplikation mit 0 zur Gleichung x * 0 = 0 führen, also zu einer Gleichung, die für jedes beliebiges x richtig ist. Es gibt daher keien sinnvolle eindeutige Definition für die Division durch 0.
+
+Wie lautet das Distributivgesetz der Multiplikation?
+a * (b + c) = a * b + a * c
+
+Wie lautet das Kommutativgesetz der Multiplikation?
+a * b = b * a
+
+Wie lautet das Assoziativgesetz der Multiplikation?
+a * (b * c) = (a * b) * c = a * b * c
+
+Wie werden die Komplexen Zahlen definiert?
+ Mathematisches Symbol: C
+Die Erweiterung der reellen Zahlen zu den komplexen Zahlen ist dadurch motiviert, dass z.B. Gleichungen wie x^2 = -1 nicht lösbar sind. Die Erweiterung wird vorgenommen, indem eine imaginäre Einheit i mit der Definition i^2 = -1 eingeführt wird. Die gewohnte lineare Ordnung der reellen Zahlen, die man sich mittels eines Zahlenstrahls veranschaulichen kann, kann in den komplexen Zahlen nicht mehr beibehalten werden. Die komplexen Zahlen kann man also aufbauend auf der imaginären Einheit i als Sprungbrett zum Auffinden reeller Lösungen von reellen Gleichungen benutzen.
+	Hat man die reelle Lösung gefunden, kann man sagen: Imaginäre Einheit hat ihre Schuldigkeit getan – die imaginäre Einheit kann gehen
+
+Wie werden die Reellen Zahlen definiert?
+Mathematisches Symbol: R
+Die rationalen und irrationalen Zahlen werden zum Zahlkörper der reellen Zahlen Zusammengefasst.
+Die nur eingeschränkte Durchführbarkeit des Wurzelziehens innerhalb der rationalen Zahlen, u.a. die Irrationalität von Wurzel 2 zeigt, dass die rationalen Zahlen „Lücken“ aufweisen.
+	In den reellen Zahlen ist also Wurzelziehen (eingeschränkt) ausführbar
+
+Wie werden die Rationalen Zahlen definiert?
+Mathematisches Symbol: Q
+Ganzzahlige Brüche heißen rationale Zahlen. Rationale Zahlen werden aufgefasst als natürliche Erweiterung der ganzen Zahlen, so wie die ganzen Zahlen als natürliche Erweiterung der natürlichen Zahlen dienen. In den rationalen Zahlen sind alle vier Grundrechenarten uneingeschränkt ausführbar.
+
+Wie werden die Ganzen Zahlen definiert?
+Mathematisches Symbol: Z
+Die natürlichen Zahlen und die daraus (mit einem Minuszeichen) davor gewonnenen negativen Zahlen bilden zusammen die ganzen Zahlen. Die ganzen Zahlen sind eine Erweiterung der natürlichen Zahlen, die es gestatten, uneingeschränkt zu subtrahieren. Dazu werden die natürlichen Zahlen um negative Zahlen ergänzt.
+
+Wie werden die natürlichen Zahlen definiert?
+Mathematisches Symbol: N
+Natürliche Zahlen können Dinge zählen, d.h. die Anzahl von Objekten aus dem Lebensumfeld zu bestimmen. In den natürlichen Zahlen sind Addition und Multiplikation uneingeschränkt ausführbar.
+
+Was sind Zahlensysteme?
+Ein Zahlensystem wird zur Darstellung von Zahlen verwendet. Eine Zahl wird dabei nach den Regeln des Zahlensystems als Folge von Ziffern dargestellt.
+
+Wie sieht die Addition in verschiedenen Zahlenbereichen aus?
+Die Addition kann ohne Ausnahme innerhalb der Mengen der natürlichen Zahlen N, der ganzen Zahlen Z, der rationalen Zahlen Q und der reellen zahlen R ausgeführt werden. Auch andere Mengen, wie die der komplexen Zahlen besitzen eine Verknüpfung, die als Addition bezeichnet wird, wie sie denselben formalen Rechenregeln genügt.
+Addition nennt man eine Reihe mathematischer Verknüpfungen, die alle die folgenden Eigenschaften haben:
+-	Sie sind assoziativ und kommutativ
+-	Sie erfüllen zusammen mit einer Multiplikation das Distributivgesetz
+
+Wie sehen die Grundrechenarten der Arithmetik aus?
+In den meisten Fällen ergibt die Addition zusammen mit ihrer Definitionsmenge eine Abelsche Gruppe. Wichtigste Ausnahme hiervon ist die Addition auf den natürlichen Zahlen, wegen der fehlenden Inversen (negative Zahlen). Summen können mittels des Summenzeichen notiert werden.
+
+Wie sieht die Division durch Null für Informatiker aus?
+Es kann vorkommen, dass beim Programmieren durch Null dividiert wird, ein Informatiker muss daher:
+-	Solche Werte in einem Programm möglichst abfangen
+-	Die Nutzer des Programms auf das Ergebnis aufmerksam machen
+-	Wenn sinnvoll ein (Zwischen-) Ergebnis abliefern, mit dem das aussichtsreichste Weiterrechnen erwartet werden kann
+
+Wie sieht die Schreibweise für Summen aus?
+Es seien m, n Element von Z und m < n. Man schreibt die Summe der Zahlen, am, am+1 ... an Element von R mit dem Summenzeichen.
+m = untere Summationsgrenze
+n = obere Summationsgrenze
+k = Laufindex oder Summationsindex
+ak = Summand
+Die Anzahl der Summanden ist n – m + 1
+
+
+
+
+Was sind die Peano-Axiome?
+Die Peano-Axiome sind fünf Axiome, welche die natürlichen Zahlen und ihre Eigenschaften charakterisieren.
+1.	1 ist eine natürliche Zahl
+2.	Jede natürliche Zahl besitzt eine eindeutig bestimmte natürliche Zahl als Nachfolger
+3.	1 ist nicht Nachfolger einer natürlichen Zahl
+4.	Verschiedene natürliche Zahlen haben verschiedene Nachfolger
+5.	Ist eine Aussage, die von einer natürlichen Zahl abhängt wahr, wenn diese Zahl 1 ist, und ist sie außerhalb wahr für den Nachfolger einer natürlichen Zahl, wenn sie für diese natürliche Zahl wahr ist, dann ist sie für alle natürlichen Zahlen wahr
+
+Was ist die Unvollständige Induktion?
+Die Methode, von Einzelfällen auf die Gesamtheit zu schließen, wird oft unvollständige Induktion genannt. Sobald man eine gewisse hinreichend große Zahl von Fällen überprüft hat, stellt man sich auf den Standpunkt, dass schon alles on Ordnung sein wird, und behauptet, dass dies und jenes nicht nur für die überprüfenden Fälle richtig ist, sondern immer.
+
+Wie lautet die Definition für einen Ring?
+Eine Menge R zusammen mit zwei Verknüpfungen +: R x R -> und *: R x R -> R heißt Ring, wenn folgendes gilt:
+(R1) R zusammen mit der Addition + ist eine Abelsche Gruppe
+(R2) R zusammen mit der Multiplikation * ist eine Halbgruppe
+(R3) Es gilt das Distributivgesetz, d.h. für a, b, c Element von R ist
+a * (b + c) = a * b + a * c und (b + c) * a = b * a + c * a
+Ein Ring heißt kommutativ, wenn die Multiplikation kommutativ ist, d.h. für alle a, b Element von R gilt a * b = b* a und er heißt "nullteilerfrei", wenn aus  a * b = 0 folgt, dass a = 0 oder b = 0.
+Ein Element 1 Element von R heißt Einselement, wenn für alle a Element von R gilt, dass 1 * a = a * 1 = a.
+
+Was ist ein Kommutativer Ring mit Einselement?
+Die Menge Z der ganzen Zahlen zusammen mit der Addition und Multiplikation ist ein kommutativer Ring mit Einselement.
+
+
+Was sind die Körperaxiome?
+Auf der Menge der reellen Zahlen R sind zwei (zweistellige) Verknüpfungen definiert:
+-	Eine Verknüpfung der Addition: + : R x R -> R
+-	Eine Verknüpfung der Multiplikation: * : R x R -> R
+R x R -> R bezeichnet eine zweistellige Operation. Das bedeutet beispielsweise in der Schreibweise + : R x R -> R, dass die Addition zwei reelle Zahlen als Argument annimmt und ihnen eine reelle Zahl als Ergebnis zuordnet. Analog macht auch die Multiplikation aus zwei reellen Zahlen als Argumente eine reelle Zahl als Ergebnis.
+
+Wie sehen die zu prüfenden Rechenregeln bei den komplexen Zahlen aus?
+-	Die Zahl 0 muss das neutrale Element der Addition sein (0 + 0* i)
+-	Die Zahl 1 muss das neutrale Element der Multiplikation sein (1 + 0 * i)
+-	Zu jeder Zahl a gibt es ein inverses Element der Addition (a + 0 * i)
+-	Zu jeder Zahl a ungleich 0 gibt es ein inverses Element der Multiplikation
+(a + 0 * i)
+-	Es gelten die Gesetze für Addition und Multiplikation, also Kommutativ-, Assoziativ- und Distributivgesetze
+
+Wie sehen Dimensionen >= 3 aus?
+Es gibt in Dimensionen >= 3 keine Multiplikation mehr, für die die Axiome alle gültig sind. Zum Beispiel gibt es in Dimension 4 die sogenannten Quarternionen, die mit einer nicht-kommutativen Multiplikation versehen sind. Dann gibt es noch in Dimension 8 die sogenannten Quaternionen, deren Multiplikation weder kommutativ noch assoziativ ist.
+
+Wie sieht die Multiplikation eines Vektors mit einem Skalar aus?
+Multipliziert man einen Vektor a mit einer reellen Zahl c so ergibt sich ein Vektor, der die gleiche Richtung und den gleichen Richtungssinn hat, dessen Betrag jedoch um den Faktor c verändert ist. Diese Multiplikation wird Skalarmultiplikation genannt.
+-	Ist c > 1, so wird der Vektor gestreckt
+-	Ist 0 < c < 1, so wird der Vektor gestaucht
+-	Ist c < 0, so wird zusätzlich zur Streckung / Stauchung des Vektors der Richtungssinn umgedreht
+
+
+
+
+
+Wie lautet das Determinantenkriterium für lineare Unabhängigkeit?
+Es sei {a1, a2, ..., an} eine Menge von n-dimensionalen Vektoren. Schreibt man diese Vektoren (als Spaltenvektoren) nebeneinander, so definiert das eine (n x n)- Matrix, beispielsweise A genannt.
+Dann gilt: Die Vektoren {a1, a2, ..., an} sind genau dann linear unabhängig, wenn die Determinante dieser Matrix A ungleich 0 ist.
+
+Was ist alles erlaubt beim Gauss-Verfahren für Vektoren?
+Erlaubt sind:
+-	Vertauschen zweier Zeilen von A
+-	Multiplizieren einer Zahl von A mit einem invertierenden Skalar, also ein Skalar gleich 0
+-	Addition eines Vielfachen einer Zeile von A zu einer anderen Zeile von A
+
+Was bedeutet es, wenn das Additionsverfahren bei linearen Gleichungssystemen 1 = 1 ergibt?
+Die wesentliche Annahme des Additionsverfahren, dass das Gleichungssystem eine eindeutige Lösung besitzt, trifft nicht immer für alle Gleichungssysteme zu. Es kann dennoch auch angewendet werden, wobei im Allgemeinen diese Fälle auftreten können:
+-	Führt das Additionsverfahren auf eine Gleichung der Art 1 = 1, so entsprechen die beiden miteinander addierten Gleichungen einer einzigen Gleichung bzw. eine einzige Gleichung mit zwei Unbekannten vor, die im Allgemeinen nicht eindeutig lösbar ist, sondern unendlich
+-	Führt das Additionsverfahren auf eine Gleichung der Art 0 = 1, also einen Widerspruch, so existiert keine Lösung für das Gleichungssystem (dies gilt vergleichbar damit, dass es beispielsweise kein x gibt, für das zugleich x = 5 und x = 7 gilt
+
+Wie ist das Spatprodukt definiert?
+Das Spatprodukt berechnet sich durch a * (b x c)
+-	Das Spatprodukt ist eine skalare Größe
+-	Das Spatprodukt wird auch als gemischtes Produkt bezeichnet, da bei seiner Bildung sowohl skalare als auch vektorielle Multiplikationen auftreten
+-	Das Skalarprodukt ist gleich Null a * (b x c) = 0 wenn:
+o	Einer der drei Vektoren der Nullvektor ist
+o	Wenn die drei Vektoren linear abhängig sind. Die Beziehung benutzt man, um festzustellen, ob 4 Punkte in einer Ebene liegen
+
+Wie sieht die Beziehung von Geraden aus?
+Bei der Beziehung von Geraden wird der Richtungspfeil weggelassen, da eine Gerade keinen eindeutigen Richtungssinn hat; bei g handelt es sich vielmehr um die Menge aller Punkte, welche die zugehörige Gleichung erfüllen. Soll eine Gerade durch zwei Punkte A und B festgelegt werden, so entspricht der Richtungsvektor v wiederrum dem Verschiebungsvektor beider Punkte.
+
+Was bedeutet es eine Matrix zu Transponieren?
+Beim Transponieren einer Matrix bleiben nur diejenigen Komponenten unverändert, die auf der von links oben nach rechts unten verlaufenden Hauptdiagonalen liegen; alle anderen Einträge werden an dieser Diagonalen gespiegelt.
+
+Wie sieht die Multiplikation eines Zeilen- mit einem Spaltenvektor aus?
+Zur Herleitung einer Rechenregel für die Multiplikation zweier Matrizen wird zunächst von der skalaren Multiplikation eines Zeilenvektors mit einem Spaltenvektor ausgegangen. Wie bei einem gewöhnlichen Skalarprodukt zweier Vektoren werden dabei die einzelnen Komponenten des Zeilen- und des Spaltenvektors miteinander multipliziert, und die sich dabei ergebenen Teilergebnisse schließlich summiert.
+
+Wie sieht die Multiplikation zweier Matrizen aus nach dem Falk-Schema?
+Beim Falk-Schema werden die zu multiplizierenden Matrizen beziehungsweise Vektoren tabellenartig aufgelistet. Die Auswertung erfolgt allgemein nach folgender Regel:
+-	Multipliziert man die i-te Zahl der linken Matrix mit der j-ten Spalte der rechten Matrix, so erhält man die Komponente der Ergebnis-Matrix, die dort in der i-ten Zeile und j-ten Spalte steht
+Das Falk-Schema kann also auf die Multiplikation zweier Matrize ausgeweitet werden:
+-	Hierbei wird jeweils an der Stelle, wo sich eine Zeile der linken Matrix mit einer Spalte der rechten Matrix überkreuzt, das entsprechende Skalarprodukt eingetragen
+
+
